@@ -7,8 +7,9 @@ export default function Counter() {
  
   return (
     <div>
+      <p>Next JS practise</p>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <button onClick={() => setCount(prev=>prev+1)}>Click me</button>
     </div>
   )
 }
